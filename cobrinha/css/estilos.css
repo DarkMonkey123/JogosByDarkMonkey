@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87ceeb; /* Céu azul claro */
+    margin: 0;
+    overflow: hidden; /* Remove a rolagem, se houver */
+}
+
+.container {
+    text-align: center;
+}
+
+canvas {
+    border: 2px solid #000; /* Borda mais espessa para destacar o canvas */
+    background-color: #fff; /* Cor de fundo branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao canvas para profundidade */
+}
